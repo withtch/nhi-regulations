@@ -1,0 +1,30 @@
+name: Check NHI Regulations Weekly
+
+on:
+  schedule:
+    # 每週二台灣時間早上 9:00 (UTC 01:00) 自動執行
+    - cron: '0 1 * * 2'
+  workflow_dispatch: # 仍允許隨時在網頁手動點擊按鈕執行
+
+jobs:
+  check-and-notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run check script
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          python convert.py
