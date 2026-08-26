@@ -1,4 +1,1 @@
-pypandoc
-python-docx
 requests
-beautifulsoup4
