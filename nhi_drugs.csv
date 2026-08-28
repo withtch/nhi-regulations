@@ -1,0 +1,385 @@
+健保代碼,藥品名稱,成分名稱,ATC_CODE
+A045612100,Nexium 40mg,Esomeprazole,A02BC05
+A042314100,Losec 20mg,Omeprazole,A02BC01
+A041235100,Takepron 30mg,Lansoprazole,A02BC03
+A043516100,Pantoloc 40mg,Pantoprazole,A02BC02
+A044127100,Pariet 20mg,Rabeprazole,A02BC04
+A045128100,Dexilant 60mg,Dexlansoprazole,A02BC06
+A046129100,Takecab 20mg,Vonoprazan,A02BX15
+A023456100,Gaster 20mg,Famotidine,A02BA03
+A012345100,Zantac 150mg,Ranitidine,A02BA02
+A022345100,Tagamet 200mg,Cimetidine,A02BA01
+A024567100,Axid 150mg,Nizatidine,A02BA04
+A025678100,Mucosta 100mg,Rebamipide,A02BX
+A026789100,Selbex 50mg,Teprenone,A02BX
+A027890100,Ulsanic 1g,Sucralfate,A02BX02
+A028901100,Cytotec 200mcg,Misoprostol,A02BB01
+A029012100,Stabin 50mg,Gefarnate,A02BX
+A020123100,Blon S,Cetraxate,A02BX
+A034567100,Stilnox 10mg,Zolpidem,N05CF02
+A035678100,Eurodin 2mg,Estazolam,N05CD04
+A036789100,Rivotril 0.5mg,Clonazepam,N03AE01
+A037890100,Ativan 1mg,Lorazepam,N05BA06
+A038901100,Xanax 0.5mg,Alprazolam,N05BA12
+A039012100,Valium 10mg,Diazepam,N05BA01
+A030123100,Halcion 0.25mg,Triazolam,N05CD05
+A031234100,Lendormin 0.25mg,Brotizolam,N05CF01
+A032345100,Imovane 7.5mg,Zopiclone,N05CF01
+A033456100,Dormicum 7.5mg,Midazolam,N05CD08
+A034567200,Belsomra 15mg,Suvorexant,N05CH02
+A035678200,Dayvigo 5mg,Lemborexant,N05CH03
+A036789200,Rozerem 8mg,Ramelteon,N05CH01
+A037890200,Serenace 5mg,Haloperidol,N05AD01
+A038901200,Seroquel 25mg,Quetiapine,N05AH04
+A039012200,Zyprexa 10mg,Olanzapine,N05AH03
+A030123200,Risperdal 1mg,Risperidone,N05AX08
+A031234200,Abilify 5mg,Aripiprazole,N05AX12
+A032345200,Clozaril 25mg,Clozapine,N05AH02
+A033456200,Dogmatyl 50mg,Sulpiride,N05AL01
+A034567300,Prozac 20mg,Fluoxetine,N06AB03
+A035678300,Zoloft 50mg,Sertraline,N06AB06
+A036789300,Paxil 20mg,Paroxetine,N06AB05
+A037890300,Lexapro 10mg,Escitalopram,N06AB10
+A038901300,Cipramram 20mg,Citalopram,N06AB04
+A039012300,Lustral 50mg,Sertraline,N06AB06
+A030123300,Efexor XR 75mg,Venlafaxine,N06AX16
+A031234300,Cymbalta 30mg,Duloxetine,N06AX21
+A032345300,Remeron 30mg,Mirtazapine,N06AX11
+A033456300,Wellbutrin XL 150mg,Bupropion,N06AX12
+A034567400,Trintellix 10mg,Vortioxetine,N06AX26
+A035678400,Valdoxan 25mg,Agomelatine,N06AX22
+A036789400,Tofranil 25mg,Imipramine,N06AA02
+A037890400,Tryptanol 25mg,Amitriptyline,N06AA09
+A038901400,Depakine 500mg,Valproate,N03AG01
+A039012400,Tegretol 200mg,Carbamazepine,N03AF01
+A030123400,Dilantin 100mg,Phenytoin,N03AB02
+A031234400,Keppra 500mg,Levetiracetam,N03AX14
+A032345400,Lamictal 50mg,Lamotrigine,N03AX09
+A033456400,Topamax 50mg,Topiramate,N03AX11
+A034567500,Lyrica 75mg,Pregabalin,N03AX16
+A035678500,Neurontin 300mg,Gabapentin,N03AX12
+A036789500,Vimpat 100mg,Lacosamide,N03AX18
+A037890500,Fycompa 4mg,Perampanel,N03AX22
+A038901500,Madopar 250mg,Levodopa Benserazide,N04BA02
+A039012500,Sinemet 250mg,Levodopa Carbidopa,N04BA02
+A030123500,Mirapex 0.25mg,Pramipexole,N04BC05
+A031234500,Requip 1mg,Ropinirole,N04BC04
+A032345500,Comtan 200mg,Entacapone,N04BX02
+A033456500,Stalevo,Levodopa Carbidopa Entacapone,N04BA03
+A034567600,Azilect 1mg,Rasagiline,N04BD02
+A035678600,Aricept 5mg,Donepezil,N06DA02
+A036789600,Exelon 1.5mg,Rivastigmine,N06DA03
+A037890600,Ebixa 10mg,Memantine,N06DX01
+A038901600,Reminyl 8mg,Galantamine,N06DA04
+A051234100,Celebrex 200mg,Celecoxib,M01AH01
+A052345100,Voren 50mg,Diclofenac,M01AB05
+A053456100,Ponstan 500mg,Mefenamic Acid,M01AG01
+A054567100,Arcoxia 60mg,Etoricoxib,M01AH05
+A055678100,Mobic 15mg,Meloxicam,M01AC06
+A056789100,Naprosyn 250mg,Naproxen,M01AE02
+A057890100,Brufen 400mg,Ibuprofen,M01AE01
+A058901100,Feldene 20mg,Piroxicam,M01AC01
+A059012100,Indocin 25mg,Indomethacin,M01AB01
+A050123100,Cataflam 50mg,Diclofenac Potassium,M01AB05
+A051234200,Tilcotil 20mg,Tenoxicam,M01AC02
+A052345200,Synflex 275mg,Naproxen Sodium,M01AE02
+A053456200,Surgam 300mg,Tiaprofenic Acid,M01AE11
+A054567200,Ketanest,Ketoprofen,M01AE03
+A055678200,Ultram 50mg,Tramadol,N02AJ13
+A056789200,Ultracet,Tramadol Acetaminophen,N02AJ13
+A057890200,Ultracet Semi,Tramadol Acetaminophen,N02AJ13
+A058901200,Panadol 500mg,Acetaminophen,N02BE01
+A059012200,Scapan 10mg,Hyoscine,A03BB01
+A050123200,Buscopan 10mg,Hyoscine,A03BB01
+A051234300,Miolax 50mg,Eperisone,M03BX09
+A052345300,Sirdalud 2mg,Tizanidine,M03BX02
+A053456300,Lioresal 10mg,Baclofen,M03BX01
+A054567300,Solaxin 200mg,Chlorzoxazone,M03BB01
+A055678300,Muscalm 50mg,Tolperisone,M03BX04
+A056789300,Colchicine 0.5mg,Colchicine,M04AC01
+A057890300,Zyloric 100mg,Allopurinol,M04AA01
+A058901300,Feburic 80mg,Febuxostat,M04AA03
+A059012300,Benzbromarone 50mg,Benzbromarone,M04AB03
+A061234100,Amoxil 500mg,Amoxicillin,J01CA04
+A062345100,Keflex 500mg,Cephalexin,J01DB01
+A063456100,Cravat 500mg,Levofloxacin,J01MA12
+A064567100,Augmentin 1g,Amoxicillin Clavulanate,J01CR02
+A065678100,Unasyn 375mg,Sultamicillin,J01CR03
+A066789100,Zinnat 250mg,Cefuroxime,J01DC02
+A067890100,Cefspan 100mg,Cefixime,J01DD08
+A068901100,Ceptik 100mg,Cefcapene,J01DD17
+A069012100,Meiact 100mg,Cefditoren,J01DD16
+A060123100,Ciproxin 500mg,Ciprofloxacin,J01MA02
+A061234200,Avelox 400mg,Moxifloxacin,J01MA14
+A062345200,Bactrim,Sulfamethoxazole Trimethoprim,J01EE01
+A063456200,Klaricid 500mg,Clarithromycin,J01FA09
+A064567200,Zithromax 250mg,Azithromycin,J01FA10
+A065678200,Erythrocin 250mg,Erythromycin,J01FA01
+A066789200,Vibramycin 100mg,Doxycycline,J01AA02
+A067890200,Minocin 100mg,Minocycline,J01AA08
+A068901200,Dalacin C 150mg,Clindamycin,J01FF01
+A069012200,Flagyl 250mg,Metronidazole,J01XD01
+A060123200,Vancomycin 500mg,Vancomycin,J01XA01
+A061234300,Tazocin 4.5g,Piperacillin Tazobactam,J01CR05
+A062345300,Tienam 500mg,Imipenem Cilastatin,J01DH51
+A063456300,Meropen 500mg,Meropenem,J01DH02
+A064567300,Invanz 1g,Ertapenem,J01DH03
+A065678300,Finibax 250mg,Doripenem,J01DH04
+A066789300,Rocephin 1g,Ceftriaxone,J01DD04
+A067890300,Claforan 1g,Cefotaxime,J01DD01
+A068901300,Fortum 1g,Ceftazidime,J01DD02
+A069012300,Maxipime 1g,Cefepime,J01DE01
+A060123300,Zavicefta 2.5g,Ceftazidime Avibactam,J01DD52
+A061234400,Zerbaxa 1.5g,Ceftolozane Tazobactam,J01DI54
+A062345400,Zyvox 600mg,Linezolid,J01XX08
+A063456400,Cubicin 500mg,Daptomycin,J01XX09
+A064567400,Tygacil 50mg,Tigecycline,J01AA12
+A065678400,Colistin 2MU,Colistimethate,J01XB01
+A066789400,Ambisome 50mg,Amphotericin B,J02AA01
+A067890400,Diflucan 50mg,Fluconazole,J02AC01
+A068901400,Vfend 200mg,Voriconazole,J02AC03
+A069012400,Cancidas 50mg,Caspofungin,J02AX04
+A060123400,Ecalta 100mg,Anidulafungin,J02AX06
+A061234500,Mycamine 50mg,Micafungin,J02AX05
+A062345500,Tamiflu 75mg,Oseltamivir,J05AH02
+A063456500,Relenza 5mg,Zanamivir,J05AH01
+A064567500,Xofluza 20mg,Baloxavir Marboxil,J05AX25
+A065678500,Paxlovid,Nirmatrelvir Ritonavir,J05AR
+A066789500,Lagevrio 200mg,Molnupiravir,J05AB18
+A067890500,Veklury 100mg,Remdesivir,J05AB16
+A071234100,Amaryl 2mg,Glimepiride,A10BB12
+A072345100,Glucophage 500mg,Metformin,A10BA02
+A073456100,Januvia 100mg,Sitagliptin,A10BH01
+A074567100,Galvus 50mg,Vildagliptin,A10BH02
+A075678100,Trajenta 5mg,Linagliptin,A10BH05
+A076789100,Onglyza 5mg,Saxagliptin,A10BH03
+A077890100,Forxiga 10mg,Dapagliflozin,A10BK01
+A078901100,Jardiance 10mg,Empagliflozin,A10BK03
+A079012100,Invokana 100mg,Canagliflozin,A10BK02
+A070123100,Steglatro 5mg,Ertugliflozin,A10BK04
+A071234200,Actos 30mg,Pioglitazone,A10BG03
+A072345200,Novonorm 1mg,Repaglinide,A10BX02
+A073456200,Fasting 30mg,Nateglinide,A10BX03
+A074567200,Glucobay 50mg,Acarbose,A10BF01
+A075678200,Daonil 5mg,Glibenclamide,A10BB01
+A076789200,Gliclazide 80mg,Gliclazide,A10BB09
+A077890200,Janumet 50/500mg,Sitagliptin Metformin,A10BD07
+A078901200,Galvus Met 50/500mg,Vildagliptin Metformin,A10BD08
+A079012200,Trajenta Duo 2.5/500mg,Linagliptin Metformin,A10BD11
+A070123200,Xigduo XR 10/1000mg,Dapagliflozin Metformin,A10BD15
+A071234300,Jardiance Duo 5/500mg,Empagliflozin Metformin,A10BD20
+A072345300,Victoza 6mg/ml,Liraglutide,A10BJ02
+A073456300,Trulicity 1.5mg,Dulaglutide,A10BJ05
+A074567300,Ozempic 1mg/ml,Semaglutide,A10BJ06
+A075678300,Rybelsus 7mg,Semaglutide Oral,A10BJ06
+A076789300,Mounjaro 5mg,Tirzepatide,A10BX16
+A077890300,Lantus 100UI,Insulin Glargine,A10AE04
+A078901300,Levemir 100UI,Insulin Detemir,A10AE05
+A079012300,Tresiba 100UI,Insulin Degludec,A10AE06
+A070123300,Humalog 100UI,Insulin Lispro,A10AB04
+A071234400,Novorapid 100UI,Insulin Aspart,A10AB05
+A072345400,Apidra 100UI,Insulin Glulisine,A10AB06
+A073456400,Mixtard 30,Insulin Human Dual,A10AD01
+A074567400,Novomix 30,Insulin Aspart Dual,A10AD05
+A075678400,Ryzodeg,Insulin Degludec Aspart,A10AD06
+A081234100,Norvasc 5mg,Amlodipine,C08CA01
+A082345100,Diovan 160mg,Valsartan,C09CA03
+A083456100,Cozaar 50mg,Losartan,C09CA01
+A084567100,Micardis 80mg,Telmisartan,C09CA07
+A085678100,Olmetec 20mg,Olmesartan,C09CA08
+A086789100,Blopress 8mg,Candesartan,C09CA06
+A087890100,Aprovel 150mg,Irbesartan,C09CA04
+A088901100,Teveten 600mg,Eprosartan,C09CA02
+A089012100,Tritace 5mg,Ramipril,C09AA05
+A080123100,Renitec 10mg,Enalapril,C09AA02
+A081234200,Zestril 10mg,Lisinopril,C09AA03
+A082345200,Capoten 25mg,Captopril,C09AA01
+A083456200,Coversyl 4mg,Perindopril,C09AA04
+A084567200,Adalat Oros 30mg,Nifedipine,C08CA05
+A085678200,Herbesser 30mg,Diltiazem,C08DB01
+A086789200,Isoptin 80mg,Verapamil,C08DA01
+A087890200,Plendil 5mg,Felodipine,C08CA02
+A088901200,Concor 5mg,Bisoprolol,C07AB07
+A089012200,Tenormin 50mg,Atenolol,C07AB03
+A080123200,Betaloc ZOK 12.5mg,Metoprolol,C07AB02
+A081234300,Dilatrend 25mg,Carvedilol,C07AG02
+A082345300,Nebilet 5mg,Nebivolol,C07AB12
+A083456300,Inderal 10mg,Propranolol,C07AA05
+A084567300,Lasix 40mg,Furosemide,C03CA01
+A085678300,Aldactone 25mg,Spironolactone,C03DA01
+A086789300,HCTZ 25mg,Hydrochlorothiazide,C03AA03
+A087890300,Fludex SR 1.5mg,Indapamide,C03BA11
+A088901300,Exforge 5/160mg,Amlodipine Valsartan,C09DB01
+A089012300,Sevikar 5/20mg,Amlodipine Olmesartan,C09DB02
+A080123300,Twynsta 80/5mg,Telmisartan Amlodipine,C09DB04
+A081234400,Co-Diovan 160/12.5mg,Valsartan HCTZ,C09DA03
+A082345400,Hyzaar 50/12.5mg,Losartan HCTZ,C09DA01
+A083456400,Micardis Plus 80/12.5mg,Telmisartan HCTZ,C09DA07
+A084567400,Entresto 100mg,Sacubitril Valsartan,C09DX04
+A091234100,Lipitor 20mg,Atorvastatin,C10AA05
+A092345100,Crestor 10mg,Rosuvastatin,C10AA07
+A093456100,Zocor 20mg,Simvastatin,C10AA01
+A094567100,Mevalotin 20mg,Pravastatin,C10AA03
+A095678100,Lescol XL 80mg,Fluvastatin,C10AA04
+A096789100,Livalo 2mg,Pitavastatin,C10AA08
+A097890100,Ezetrol 10mg,Ezetimibe,C10AX09
+A098901100,Vytorin 10/20mg,Ezetimibe Simvastatin,C10BA02
+A099012100,Atozet 10/20mg,Ezetimibe Atorvastatin,C10BA05
+A090123100,Lipanthyl 160mg,Fenofibrate,C10AB05
+A091234200,Lopid 300mg,Gemfibrozil,C10AB04
+A092345200,Repatha 140mg,Evolocumab,C10AX13
+A093456200,Praluent 75mg,Alirocumab,C10AX14
+A101234100,Bokey 100mg,Aspirin,B01AC06
+A102345100,Plavix 75mg,Clopidogrel,B01AC04
+A103456100,Effient 3.75mg,Prasugrel,B01AC22
+A104567100,Brilinta 90mg,Ticagrelor,B01AC24
+A105678100,Pletaal 50mg,Cilostazol,B01AC23
+A106789100,Coumadin 5mg,Warfarin,B01AA03
+A107890100,Xarelto 15mg,Rivaroxaban,B01AF01
+A108901100,Eliquis 5mg,Apixaban,B01AF02
+A109012100,Pradaxa 110mg,Dabigatran,B01AE07
+A100123100,Lixiana 60mg,Edoxaban,B01AF03
+A101234200,Clexane 60mg,Enoxaparin,B01AB05
+A102345200,Fraxiparine,Nadroparin,B01AB06
+A103456200,Heparin 25000U,Heparin,B01AB01
+A111234100,Synroid 100mcg,Levothyroxine,H03AA01
+A112345100,Thyrozol 5mg,Thiamazole,H03BB02
+A113456100,PTU 50mg,Propylthiouracil,H03BA02
+A114567100,Minirin 0.1mg,Desmopressin,H01BA02
+A115678100,Medrol 4mg,Methylprednisolone,H02AB04
+A116789100,Prednisolone 5mg,Prednisolone,H02AB06
+A117890100,Dexamethasone 0.5mg,Dexamethasone,H02AB02
+A118901100,Cortisone 25mg,Cortisone,H02AB10
+A119012100,Hydrocortisone 100mg,Hydrocortisone,H02AB09
+A121234100,Fosamax 70mg,Alendronate,M05BA04
+A122345100,Actonel 35mg,Risedronate,M05BA07
+A123456100,Bonviva 150mg,Ibandronate,M05BA06
+A124567100,Aclasta 5mg,Zoledronic Acid,M05BA08
+A125678100,Prolia 60mg,Denosumab,M05BX04
+A126789100,Evista 60mg,Raloxifene,G03XC01
+A127890100,Forteo 600mcg,Teriparatide,H05AA02
+A128901100,Caltrate 600mg,Calcium Carbonate,A12AA04
+A129012100,Rocaltrol 0.25mcg,Calcitriol,A11CC04
+A131234100,Ventolin 100mcg,Salbutamol,R03AC02
+A132345100,Berotec 100mcg,Fenoterol,R03AC04
+A133456100,Atrovent 20mcg,Ipratropium,R03BB01
+A134567100,Spiriva 18mcg,Tiotropium,R03BB04
+A135678100,Symbicort 160/4.5mcg,Budesonide Formoterol,R03AK07
+A136789100,Seretide 250mcg,Fluticasone Salmeterol,R03AK06
+A137890100,Foster 100/6mcg,Beclometasone Formoterol,R03AK08
+A138901100,Relvar 100/25mcg,Fluticasone Vilanterol,R03AK10
+A139012100,Anoro 62.5/25mcg,Umeclidinium Vilanterol,R03AL03
+A130123100,Trelegy 100/62.5/25mcg,Fluticasone Umeclidinium Vilanterol,R03AL08
+A131234200,Singulair 10mg,Montelukast,R03DC03
+A132345200,Xolair 150mg,Omalizumab,R03DX05
+A133456200,Nucala 100mg,Mepolizumab,R03DX09
+A134567200,Fasenra 30mg,Benralizumab,R03DX10
+A141234100,Xyzal 5mg,Levocetirizine,R06AE09
+A142345100,Zyrtec 10mg,Cetirizine,R06AE07
+A143456100,Allegra 60mg,Fexofenadine,R06AX26
+A144567100,Clarityne 10mg,Loratadine,R06AX13
+A145678100,Aerius 5mg,Desloratadine,R06AX27
+A146789100,Periactin 4mg,Cyproheptadine,R06AX02
+A147890100,Venastat 30mg,Cleastine,R06AA04
+A151234100,Velcade 3.5mg,Bortezomib,L01XG01
+A152345100,Revlimid 10mg,Lenalidomide,L04AX04
+A153456100,Pomalyst 1mg,Pomalidomide,L04AX06
+A154567100,Darzalex 400mg,Daratumumab,L01FC01
+A155678100,Kyprolis 60mg,Carfilzomib,L01XG02
+A156789100,Ninlaro 4mg,Ixazomib,L01XG03
+A157890100,Herceptin 440mg,Trastuzumab,L01FD01
+A158901100,MabThera 500mg,Rituximab,L01FA01
+A159012100,Avastin 400mg,Bevacizumab,L01FG01
+A150123100,Keytruda 100mg,Pembrolizumab,L01FF02
+A151234200,Opdivo 100mg,Nivolumab,L01FF01
+A152345200,Tecentriq 1200mg,Atezolizumab,L01FF05
+A153456200,Imfinzi 500mg,Durvalumab,L01FF03
+A154567200,Erbitux 100mg,Cetuximab,L01FE01
+A155678200,Vectibix 100mg,Panitumumab,L01FE02
+A156789200,Glivec 100mg,Imatinib,L01EA01
+A157890200,Tasigna 200mg,Nilotinib,L01EA03
+A158901200,Sprycel 50mg,Dasatinib,L01EA02
+A159012200,Iressa 250mg,Gefitinib,L01EB01
+A150123200,Tarceva 150mg,Erlotinib,L01EB02
+A151234300,Giotrif 40mg,Afatinib,L01EB03
+A152345300,Tagrisso 80mg,Osimertinib,L01EB04
+A153456300,Xalkori 250mg,Crizotinib,L01ED01
+A154567300,Alecensa 150mg,Alectinib,L01ED03
+A155678300,Alunbrig 90mg,Brigatinib,L01ED04
+A156789300,Lorviquo 100mg,Lorlatinib,L01ED05
+A157890300,Ibrance 125mg,Palbociclib,L01EF01
+A158901300,Kisqali 200mg,Ribociclib,L01EF02
+A159012300,Verzenio 150mg,Abemaciclib,L01EF03
+A150123300,Lynparza 150mg,Olaparib,L01XX46
+A151234400,Zejula 100mg,Niraparib,L01XX54
+A152345400,Methotrexate 2.5mg,Methotrexate,L01BA01
+A153456400,Endoxan 50mg,Cyclophosphamide,L01AA01
+A154567400,Xeloda 500mg,Capecitabine,L01BC06
+A155678400,TS-1 20mg,Tegafur Gimeracil Oteracil,L01BC53
+A156789400,5-FU 500mg,Fluorouracil,L01BC02
+A157890400,Cisplatin 50mg,Cisplatin,L01XA01
+A158901400,Paraplatin 150mg,Carboplatin,L01XA02
+A159012400,Eloxatin 100mg,Oxaliplatin,L01XA03
+A150123400,Taxol 100mg,Paclitaxel,L01CD01
+A151234500,Taxotere 80mg,Docetaxel,L01CD02
+A152345500,Campto 100mg,Irinotecan,L01CE02
+A153456500,Hycamtin 4mg,Topotecan,L01CE01
+A154567500,Gemzar 1g,Gemcitabine,L01BC05
+A155678500,Navelbine 50mg,Vinorelbine,L01CA04
+A156789500,Adriamycin 50mg,Doxorubicin,L01DB01
+A157890500,Pharmorubicin 50mg,Epirubicin,L01DB03
+A161234100,Imuran 50mg,Azathioprine,L04AX01
+A162345100,CellCept 250mg,Mycophenolate Mofetil,L04AA06
+A163456100,Myfortic 360mg,Mycophenolic Acid,L04AA06
+A164567100,Prograf 1mg,Tacrolimus,L04AD02
+A165678100,Neoral 100mg,Cyclosporine,L04AD01
+A166789100,Certican 0.75mg,Everolimus,L04AA18
+A167890100,Rapamune 1mg,Sirolimus,L04AA10
+A168901100,Arava 20mg,Leflunomide,L04AR01
+A169012100,Enbrel 50mg,Etanercept,L04AB01
+A160123100,Humira 40mg,Adalimumab,L04AB04
+A161234200,Remicade 100mg,Infliximab,L04AB02
+A162345200,Simponi 50mg,Golimumab,L04AB06
+A163456200,Cimzia 200mg,Certolizumab Pegol,L04AB05
+A164567200,Actemra 200mg,Tocilizumab,L04AC07
+A165678200,Kevzara 200mg,Sarilumab,L04AC14
+A166789200,Orencia 250mg,Abatacept,L04AA24
+A167890200,Stelara 45mg,Ustekinumab,L04AC05
+A168901200,Cosentyx 150mg,Secukinumab,L04AC10
+A169012200,Taltz 80mg,Ixekizumab,L04AC13
+A160123200,Tremfya 100mg,Guselkumab,L04AC16
+A161234300,Skyrizi 150mg,Risankizumab,L04AC18
+A162345300,Entyvio 300mg,Vedolizumab,L04AA33
+A163456300,Xeljanz 5mg,Tofacitinib,L04AA29
+A164567300,Olumiant 4mg,Baricitinib,L04AA37
+A165678300,Rinvoq 15mg,Upadacitinib,L04AA44
+A166789300,Jyseleca 200mg,Filgotinib,L04AA45
+A171234100,Harnalidge 0.2mg,Tamsulosin,G04CA02
+A172345100,Uroxatral 10mg,Alfuzosin,G04CA01
+A173456100,Rapaflo 4mg,Silodosin,G04CA04
+A174567100,Hytrin 2mg,Terazosin,G04CA03
+A175678100,Cardura 2mg,Doxazosin,C02CA04
+A176789100,Proscar 5mg,Finasteride,G04CB01
+A177890100,Avodart 0.5mg,Dutasteride,G04CB02
+A178901100,Duodart,Dutasteride Tamsulosin,G04CA52
+A179012100,Betmiga 50mg,Mirabegron,G04BD12
+A170123100,Toviaz 4mg,Fesoterodine,G04BD11
+A171234200,Vesicare 5mg,Solifenacin,G04BD08
+A172345200,Detrusitol 2mg,Tolterodine,G04BD07
+A173456200,Viagra 50mg,Sildenafil,G04BE03
+A174567200,Cialis 20mg,Tadalafil,G04BE08
+A175678200,Levitra 10mg,Vardenafil,G04BE09
+A181234100,Urso 100mg,Ursodeoxycholic Acid,A05AA02
+A182345100,Transamin 250mg,Tranexamic Acid,B02AA02
+A183456100,Kock 250mg,Etamsylate,B02BX01
+A184567100,Befol 10mg,Pyridoxine,A11HA02
+A185678100,Methycobal 500mcg,Mecobalamin,B03BA05
+A186789100,Folic Acid 5mg,Folic Acid,B03BB01
+A187890100,Fer-In-Sol,Ferrous Sulfate,B03AA07
+A188901100,Venofer 100mg,Iron Sucrose,B03AC00
+A189012100,Recormon 2000IU,Epoetin Beta,B03XA01
+A180123100,Aranesp 20mcg,Darbepoetin Alfa,B03XA02
+A181234200,Mircera 50mcg,Methoxy Polyethylene Glycol Epoetin Beta,B03XA03
+A182345200,Neupogen 300mcg,Filgrastim,L03AA02
+A183456200,Neulasta 6mg,Pegfilgrastim,L03AA13
+A184567200,Granocyte 150mcg,Lenograstim,L03AA10
