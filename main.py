@@ -7,15 +7,13 @@ st.set_page_config(page_title="健保藥品給付規定線上查詢系統", layo
 st.title("🔍 健保藥品成分與給付規定線上查詢系統")
 st.caption("自動同步 GitHub 最新健保規範 Markdown 資料集")
 
-# 1. 學名 / 商品名同義詞對照字典
+# 1. 將同義詞精準指引到健保規範中的專有名詞片語
 SYNONYM_MAP = {
-    "calcium carbonate": "calcium",
-    "碳酸鈣": "calcium",
-    "口服鈣": "calcium",
-    "oral calcium salt": "calcium",
-    "celecoxib": "celecoxib",
+    "calcium carbonate": "oral calcium salt",
+    "碳酸鈣": "口服鈣質補充劑",
+    "口服鈣": "口服鈣質補充劑",
+    "calcium": "oral calcium salt",  # 若希望輸入 calcium 也直接找口服鈣質補充劑
     "celebrex": "celecoxib",
-    "zolpidem": "zolpidem",
     "stilnox": "zolpidem"
 }
 
