@@ -7,7 +7,7 @@ st.set_page_config(page_title="健保藥品給付規定線上查詢系統", layo
 st.title("🔍 健保藥品成分與給付規定線上查詢系統")
 st.caption("自動同步 GitHub 最新健保規範 Markdown 資料集")
 
-# 學名/商品名同義詞對照字典
+# 1. 學名 / 商品名同義詞對照字典
 SYNONYM_MAP = {
     "calcium carbonate": "calcium",
     "碳酸鈣": "calcium",
@@ -23,12 +23,39 @@ query = st.text_input("請輸入藥品成分或學名英文關鍵字（例如：
 
 DATA_DIR = "./markdown_output"
 
-def clean_extra_newlines(text):
-    """清除多餘的連續空行，將 2 個以上的換行壓縮為 1 個換行"""
-    text = re.sub(r'\n\s*\n+', '\n', text)
-    # 清除 Markdown 引用符號 '>' 後面不必要的空行
-    lines = [line.strip() for line in text.splitlines() if line.strip()]
-    return "\n".join(lines)
+def clean_and_extract_section(lines, matched_idx):
+    """
+    從匹配位置開始，抓取完整條文內容，直到遇到下一個章節標題（如 3.3.5）為止
+    """
+    extracted_lines = []
+    
+    # 判斷條文開頭（往前向上抓取 1 行，確保涵蓋標題）
+    start = max(0, matched_idx)
+    
+    # 用正則表達式識別「下一個條文標題」的模式（如 3.3.5. 或 通則標題）
+    # 避免抓到不屬於該成分的內容
+    header_pattern = re.compile(r'^\s*>?\s*\d+\.\d+\.\d+\.')
+
+    for i in range(start, len(lines)):
+        line = lines[i].strip()
+        
+        # 移除 Markdown 引用符號 '>'
+        line = re.sub(r'^>\s*', '', line)
+        
+        # 如果已經抓了內容，且遇到「下一個條文標題」（例如 3.3.5.），則立即停止抓取
+        if len(extracted_lines) > 0 and header_pattern.match(line):
+            # 確保不是原本匹配的那一行
+            if i != matched_idx:
+                break
+
+        if line: # 排除純空白行
+            extracted_lines.append(line)
+            
+        # 安全機制：單一條文最多抓取 30 行非空白文字
+        if len(extracted_lines) >= 30:
+            break
+
+    return "\n".join(extracted_lines)
 
 def search_markdown_files(term):
     results = []
@@ -60,14 +87,10 @@ def search_markdown_files(term):
                         
                         if matched_indices:
                             extracted_chunks = []
-                            for idx in matched_indices[:3]:
-                                start = max(0, idx - 2)
-                                end = min(len(lines), idx + 45) # 擴大抓取範圍，確保 3. 及 4. 點完整呈現
-                                
-                                raw_chunk = "".join(lines[start:end])
-                                # 自動壓縮過多的空行
-                                cleaned_chunk = clean_extra_newlines(raw_chunk)
-                                extracted_chunks.append(cleaned_chunk)
+                            for idx in matched_indices[:2]: # 取前 2 個匹配區塊
+                                chunk = clean_and_extract_section(lines, idx)
+                                if chunk:
+                                    extracted_chunks.append(chunk)
                             
                             snippet = "\n\n---\n\n".join(extracted_chunks)
                             results.append({
@@ -88,7 +111,7 @@ if query:
             with st.expander(f"📄 檔案：{item['file']}", expanded=True):
                 st.caption(f"路徑：{item['path']}")
                 st.markdown("**對應條文內容：**")
-                # 使用 markdown 格式渲染，並去除過大的區塊間距
-                st.markdown(item['snippet'])
+                # 使用 code 區塊呈現緊湊文字，防止系統拉大段落間距
+                st.code(item['snippet'], language="text")
     else:
         st.warning(f"查無包含「{query}」的健保規範檔案。")
